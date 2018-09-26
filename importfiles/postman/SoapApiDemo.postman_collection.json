@@ -1,0 +1,49 @@
+{
+	"info": {
+		"_postman_id": "6f1817c4-7020-4061-9ac4-221e917bb5cf",
+		"name": "SoapApiDemo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "LoginSuccess",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:8080/success",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"success"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "RegistaionPage",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:8080/registation",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"registation"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
